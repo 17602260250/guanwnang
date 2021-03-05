@@ -11,5 +11,23 @@ export default [{
 		children:[
 			
 		]
+	},
+	{
+		path: '/IndustryInformation',
+		name: 'IndustryInformation',
+		title: '行业资讯',
+		component: () => import('@/views/IndustryInformation.vue'),
+		children:[
+			
+		]
+	},
+	{
+		path: '/register',
+		name: 'register',
+		title: '注册',
+		component: () => import('@/views/register.vue'),
+		children:[
+			
+		]
 	}
 ]

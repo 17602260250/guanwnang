@@ -8,7 +8,8 @@
 						<div class="logoTitle">易奢云</div>
 						<div class="classifiction">
 							<div class="_a to_a" @click="toFirst">首页</div>
-							<div class="_a to_a" @click="toShop">易奢云SaaS</div>
+							<router-link class="_a to_a"  to="/IndustryInformation">收费行业资讯</router-link>
+							<!-- <div class="_a to_a" @click="toShop">易奢云SaaS</div> -->
 							<div class="_a to_a" @click="toShop_">产品服务</div>
 							<div class="_a to_a" @click="toScroll">关于我们</div>
 						</div>

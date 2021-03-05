@@ -87,3 +87,13 @@ body,
   background: -moz-linear-gradient(right, transparent, #fff 50%);
   background: linear-gradient(to right, transparent, #fff 50%);
  }
+ .alertConfim{
+	 background:#F56C6C !important;
+	 background-color: #F56C6C !important;
+	 border-color: #F56C6C !important;
+ }
+ .alertConfim:hover{
+	  background:#F56C6C !important;
+	 background-color: #F56C6C !important;
+	 border-color: #F56C6C !important;
+ }

@@ -10,7 +10,11 @@ import {
 	Loading,
 	Message,
 	Container,
-	Divider
+	Divider,
+	Alert,
+	MessageBox,
+	Radio,
+	Dialog
 } from 'element-ui';
 // import ElementUI from 'element-ui';
 // import 'element-ui/lib/theme-chalk/index.css';
@@ -20,6 +24,7 @@ import store from './store';
 import http from '@/assets/utils/api.js';
 //Vue.use(ElementUI)
 Vue.use(Button)
+Vue.use(Radio)
 Vue.use(Input)
 Vue.use(Header)
 Vue.use(Main)
@@ -27,8 +32,11 @@ Vue.use(Footer)
 Vue.use(Loading.directive);
 Vue.use(Container)
 Vue.use(Divider)
+Vue.use(Dialog)
 Vue.prototype.$loading = Loading.service;
+Vue.prototype.$msgbox = MessageBox;
 Vue.prototype.$message = Message;
+Vue.prototype.$alert = MessageBox.alert;
 
 Vue.config.productionTip = false;
 
